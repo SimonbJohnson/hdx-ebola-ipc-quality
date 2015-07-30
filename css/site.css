@@ -28,20 +28,6 @@
     min-width:500px;
 }
 
-.dashbutton{
-    background-color:#E57373;
-    border-color:#E57373;
-}
-
-.dashbutton:hover {
-    background-color:#D56363;
-    border-color:#D56363;
-}
-
-.viz-chart {
-    width:100%;
-}
-
 p {
     font-size:1.2em;
 }
@@ -69,4 +55,8 @@ p {
 
 .title{
     height:50px;
+}
+
+#reset {
+    background-color:'#64B5F6';
 }
