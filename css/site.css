@@ -38,32 +38,8 @@
     border-color:#D56363;
 }
 
-#data-table{
-    width:95%;
-    margin-left:2.5%;
-    margin-top:20px;
-    font-size:0.75em;
-        
-}
-.dc-table-group{
-    background-color: #fff;
-    color:#fff;
-    width:100%;
-}
-
 .viz-chart {
     width:100%;
-}
-
-.viz-number {
-    width:100%;
-    height:80px;
-    display:block;
-    float:none !important;
-}
-
-#download {
-    margin-top:30px;
 }
 
 p {
@@ -89,4 +65,8 @@ p {
     padding:20px;
     margin:5px;
     border-radius: 25px;
+}
+
+.title{
+    height:50px;
 }

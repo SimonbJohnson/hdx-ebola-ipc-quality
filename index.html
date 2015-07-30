@@ -25,82 +25,34 @@
     </head>
     <body>
         <div class="container">
-                <div id="header" class="row">
+            <div id="header" class="row">
+                <div class="col-md-12">  
                     <h2>HDX IPC Quality</h2>
-                    <div class="col-md-8">  
-                        <p></p>
-                    </div>
-                    <div class="col-md-1">
-                        <a class="reset btn btn-primary btn-sm dashbutton" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
-                    </div>                            
-                    <div id="count-info" class="col-md-3">
-                        <span class="filter-count "></span> selected out of <span class="total-count "></span> records.
-                    </div>                   
                 </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="viz-chart" id="org-chart">
-                        <h4>Organisation</h4>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="viz-chart" id="geo-chart">
-                        <h4>Prefecture</h4>
-                    </div>                                   
-                </div>
-                <div class="col-md-3">
-                    <div class="viz-number" id="adm2-display">
-                        <h4>Prefecture</h4>
-                    </div>
-                    <div class="viz-number" id="adm3-display">
-                        <h4>Sous Prefecture</h4>
-                    </div>
-                    <div class="viz-number" id="geolat-display">
-                        <h4>Geo Point</h4>
-                    </div>                                           
-                    <div class="viz-number" id="loc-display">
-                        <h4>Nom de la facilite</h4>
-                    </div>
-                    <div class="viz-number" id="date-display">
-                        <h4>Date</h4>
-                    </div>                                      
-                </div>
-                <div class="col-md-3">     
-                    <div class="viz-number" id="outtype-display">
-                        <h4>Type de formation</h4>
-                    </div>
-                    <div class="viz-number" id="outputnum-display">
-                        <h4>Nombre de personnels </h4>
-                    </div> 
-                    <div class="viz-number" id="statusfollow-display">
-                        <h4>Contro les suivis?</h4>
-                    </div>
-                    <div class="viz-number" id="status-display">
-                        <h4>Facilite privee?</h4>
-                    </div>
-                    <div class="viz-number" id="outputdur-display">
-                        <h4>Duree de formation</h4>
-                    </div>                                                         
-                </div>                
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <table class="table table-hover" id="data-table">
-                      <thead>
-                        <tr class="header">
-                          <th>Prefecture</th>
-                          <th>Sous-prefecture</th>
-                          <th>Nom de la facilite</th>
-                          <th>Facilite privee</th>
-                          <th>Latitude</th>
-                          <th>Longitude</th>
-                          <th>Nom du partenaire</th>
-                          <th>Date de formation</th>
-                          <th>Duree de formation</th>
-                          <th>Type de formation</th>
-                          <th>Nombre de personnels formes Contra les suivis?</th>                      
-                      </thead>
-                    </table>
+            <div class="row">                                
+                <div class="col-md-8">  
+                    <p></p>
+                </div>
+                <div class="col-md-1">
+                    <a class="reset btn btn-primary btn-sm dashbutton" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
+                </div>                            
+                <div id="count-info" class="col-md-3">
+                    <span class="filter-count "></span> selected out of <span class="total-count "></span> records.
+                </div>
+            </div>
+            <div id="dynamicpart">                   
+                <div id ="charts">                                                                
+                </div>
+                <div>
+                    <div class="col-md-12">
+                        <table class="table table-hover" id="data-table">
+                            <thead>
+                                <tr class="header">
+                                </tr>                      
+                            </thead>
+                        </table>
+                    </div>
                 </div>
             </div>            
         </div>
