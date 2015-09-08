@@ -114,7 +114,7 @@ function buildReduceRemove(index) {
     }    
 }
 
-var url ='http://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//docs.google.com/spreadsheets/u/0/d/1NfbnTHjBPxzvxssMSUpP-cPG0mIoa2rAM5VohJuTbpg/export%3Fformat%3Dcsv%26id%3D1NfbnTHjBPxzvxssMSUpP-cPG0mIoa2rAM5VohJuTbpg%26gid%3D0&format=html&filter01=cut&cut-include-tags01=&cut-exclude-tags01=%23adm1%2Bcode%2C%23adm2%2Bcode%2C%23adm3%2Bcode&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=' ;
+var url ='http://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//www.dropbox.com/s/otsi1lqdz66jy3w/ipc-merged.csv%3Fdl%3D1&strip-headers=on&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1' ;
    
 $.ajax(url, {
     success: function(data) {
