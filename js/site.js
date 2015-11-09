@@ -114,7 +114,7 @@ function buildReduceRemove(index) {
     }    
 }
 
-var url ='http://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//www.dropbox.com/s/otsi1lqdz66jy3w/ipc-merged.csv%3Fdl%3D1&strip-headers=on&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1' ;
+var url ='https://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//www.dropbox.com/s/otsi1lqdz66jy3w/ipc-merged.csv%3Fdl%3D1&strip-headers=on&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1' ;
    
 $.ajax(url, {
     success: function(data) {
